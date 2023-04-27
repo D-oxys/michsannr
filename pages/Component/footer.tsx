@@ -34,7 +34,7 @@ function Footer() {
               <h3 className="max-w-[496px] text-3xl font-semibold text-white md:text-5xl">You only have one chance to make a first impression.</h3>
               <div className="mt-5 flex items-center ">
                 <div className="h-[0.15rem] w-12 bg-pink-200"></div>
-                <h2 className="ml-4 text-2xl font-semibold leading-tight text-pink-200">Let's make it an amazing one</h2>
+                <h2 className="ml-4 text-2xl font-semibold leading-tight text-pink-200">Lets make it an amazing one</h2>
               </div>
             </div>
             <div className="flex flex-col gap-2">

@@ -2,7 +2,7 @@ import React from "react";
 
 function contactme() {
   return (
-    <>
+    <div>
       <div className="relative inset-x-0 bg-[#F7F7F7] ">
         <div className="px-20 py-20">
           <div className="animate__fadeIn animate__animated animate__delay-1s box-border rounded-3xl bg-white px-4 py-8 drop-shadow md:p-20">
@@ -13,7 +13,7 @@ function contactme() {
               </div>
             </div>
             <h2 className="mt-4 text-4xl font-semibold leading-tight text-black md:text-[64px]">
-              Let's work
+              Lets work
               <br /> together
             </h2>
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12">
@@ -26,7 +26,7 @@ function contactme() {
                   </div>
                   <div className="flex items-center gap-2 transition duration-200 md:gap-4">
                     <i className="fa-solid fa-location-dot text-blue-600"></i>
-                    <span className="text-sm text-black sm:text-base">Kp.rancawaas kec. Majalaya, Kab. Bandung </span>
+                    <span className="text-sm text-black sm:text-base">Kp.rancawaas kec. Majalaya, Kab. Bandung</span>
                   </div>
                   <div className="flex items-center gap-2 transition duration-200 md:gap-4">
                     <i className="fa-solid fa-phone text-blue-600"></i>
@@ -77,7 +77,7 @@ function contactme() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

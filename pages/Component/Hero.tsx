@@ -18,7 +18,7 @@ function Hero() {
               <p className="font-sans text-4xl font-bold tracking-widest text-[#0F172A] md:text-5xl">
                 My name is <span className="text-blue-600">Ichsan</span>
               </p>
-              <p className="font-sans text-4xl font-bold tracking-widest text-[#0F172A] md:text-5xl">I'm a Software</p>
+              <p className="font-sans text-4xl font-bold tracking-widest text-[#0F172A] md:text-5xl">Im a Software</p>
               <p className="font-sans text-4xl font-bold tracking-widest text-[#0F172A] md:text-5xl">Developer</p>
             </div>
             <button type="button" className="my-5 mb-2 mr-2 rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-700 dark:bg-blue-600 dark:hover:bg-blue-700">
