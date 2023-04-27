@@ -6,7 +6,7 @@ function Footer() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    const toggleVisibility = () => {
+    const useToggleVisibility = () => {
       if (window.pageYOffset > 300) {
         setIsVisible(true);
       } else {
@@ -14,9 +14,9 @@ function Footer() {
       }
     };
 
-    window.addEventListener("scroll", toggleVisibility);
+    window.addEventListener("scroll", useToggleVisibility);
 
-    return () => window.removeEventListener("scroll", toggleVisibility);
+    return () => window.removeEventListener("scroll", useToggleVisibility);
   }, []);
 
   const scrollToTop = () => {
