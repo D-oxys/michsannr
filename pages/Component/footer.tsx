@@ -28,7 +28,7 @@ function Footer() {
   return (
     <>
       <footer className="bg-[#1c2863] pt-10">
-        <div className="mx-auto px-4 pt-20">
+        <div className="mx-auto px-4 pt-5 md:pt-20">
           <div className="mb-20 flex flex-col justify-center gap-8 md:flex-row md:gap-32">
             <div>
               <h3 className="max-w-[496px] text-3xl font-semibold text-white md:text-5xl">You only have one chance to make a first impression.</h3>

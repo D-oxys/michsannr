@@ -17,12 +17,12 @@ function heroLayout() {
           <Hero />
         </div>
       </div>
-      <div className="flex min-h-screen flex-col bg-[#F7F7F7]">
+      <div className="flex flex-col bg-[#F7F7F7]">
         <div className="bg-[#1c2863]">
           <Serve />
         </div>
       </div>
-      <div className="flex flex-col bg-[#F7F7F7] py-20">
+      <div className="flex flex-col bg-[#F7F7F7] py-20 ">
         <Portfolio />
       </div>
       <div className="bg-[#F7F7F7] py-20">

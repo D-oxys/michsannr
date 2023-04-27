@@ -18,18 +18,18 @@ function serve() {
               Solve
             </h3>
           </div>
-          <div className="lg:mr[4%] absolute right-0 mt-8 flex flex-col items-center gap-8 px-4 md:mt-4 md:flex-row md:justify-center lg:-mt-8 xl:-mt-40 ">
-            <div className="box-border flex w-full flex-col items-center justify-center rounded-3xl bg-white p-8 drop-shadow transition-all duration-300 ease-in-out hover:-translate-y-4 md:max-w-[320px]">
-              <img className="h-44 w-44" src="img/3426526.jpg" alt="cnth" />
+          <div className="absolute right-0 mt-8 flex flex-col items-center gap-8 px-4 md:mt-4 md:flex-row md:justify-center lg:-mt-8 lg:mr-[4%] xl:-mt-40">
+            <div className="box-border drop-shadow flex w-full flex-col items-center justify-center rounded-3xl bg-white p-8 transition-all duration-300 ease-out hover:-translate-y-4 md:max-w-[320px]">
+              <img className="h-44 w-44" src="img/3426526.jpg" />
               <div className="mt-8">
-                <h4 className="text-center text-xl font-semibold text-black md:text-2xl">Front End Developer</h4>
+                <h4 className="text-center text-xl font-semibold md:text-2xl">Front End Developer</h4>
                 <p className="mt-4 text-center text-slate-500">Create your amazing idea in websites , full interaction with responsive views.</p>
               </div>
             </div>
-            <div className="box-border flex w-full flex-col items-center justify-center rounded-3xl bg-white p-8 drop-shadow transition-all duration-300 ease-in-out hover:-translate-y-4 md:max-w-[320px]">
-              <img className="h-44 w-44" src="img/4421964.jpg" alt="cnth" />
+            <div className="box-border drop-shadow flex w-full flex-col items-center justify-center rounded-3xl bg-white p-8 transition-all duration-300 ease-out hover:-translate-y-4 md:max-w-[320px]">
+              <img className="h-44 w-44" src="img/4421964.jpg" />
               <div className="mt-8">
-                <h4 className="text-center text-xl font-semibold text-black md:text-2xl">Back End Developer</h4>
+                <h4 className="text-center text-xl font-semibold md:text-2xl">Back End Developer</h4>
                 <p className="mt-4 text-center text-slate-500">Develop and manage dynamic data-driven apps using robust server-side tech</p>
               </div>
             </div>

@@ -4,7 +4,7 @@ function productHeros() {
   return (
     <>
       <div className="heroBack">
-        <div className="animate__fadeIn animate__animated animate__delay-1s grid grid-cols-1 items-center bg-cover px-20 pb-20 pt-8 lg:grid-cols-2">
+        <div className="animate__fadeIn animate__animated animate__delay-1s grid grid-cols-1 items-center bg-cover px-4 pb-20 pt-8 md:px-20 lg:grid-cols-2">
           <div className="py-4 md:py-0">
             <div className="flex items-center">
               <div className="h-[0.15rem] w-12 bg-blue-600"></div>

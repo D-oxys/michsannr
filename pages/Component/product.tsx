@@ -4,7 +4,7 @@ import Image from "next/image";
 function product() {
   return (
     <>
-      <div className="px-20">
+      <div className="px-4 md:px-20">
         <div className="flex items-center">
           <div className="h-[0.15rem] w-12 bg-blue-600"></div>
           <div className="ml-4 text-2xl font-medium text-blue-600">My Product</div>

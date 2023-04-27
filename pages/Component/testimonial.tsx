@@ -25,7 +25,7 @@ function testimonial() {
   return (
     <>
       <div>
-        <div className="px-20">
+        <div className="px-4 md:px-20">
           <h2 className="text-center text-2xl font-semibold tracking-wider text-blue-600">Testimonials</h2>
           <h2 className="mb-10 mt-4 text-center text-4xl font-semibold leading-tight text-black md:text-[64px]">
             What people say <br /> about me?

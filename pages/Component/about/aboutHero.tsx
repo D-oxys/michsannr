@@ -7,7 +7,7 @@ function aboutHero() {
   return (
     <section
       className="
-    grid grid-cols-1 items-center px-20 pb-20 pt-5 lg:grid-cols-2"
+    grid grid-cols-1 items-center px-4 pb-20 pt-5 md:px-20 lg:grid-cols-2"
     >
       <div className="animate__fadeIn animate__animated animate__delay-1s order-last py-4 md:order-first md:py-0">
         <div className="flex items-center">

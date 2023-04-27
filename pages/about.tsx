@@ -14,10 +14,10 @@ function about() {
           <Heros />
         </div>
       </div>
-      <div className="bg-[#F7F7F7] px-20 text-slate-900">
+      <div className="bg-[#F7F7F7] px-4 text-slate-900 md:px-20">
         <AboutWork />
       </div>
-      <div className="bg-[#F7F7F7] px-20 py-20 text-slate-900">
+      <div className="bg-[#F7F7F7] px-4 py-20 text-slate-900 md:px-20">
         <AboutSkill />
       </div>
       <Footer />

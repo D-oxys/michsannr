@@ -4,7 +4,7 @@ function contactme() {
   return (
     <div>
       <div className="relative inset-x-0 bg-[#F7F7F7] ">
-        <div className="px-20 py-20">
+        <div className=" px-4 py-20 md:px-20">
           <div className="animate__fadeIn animate__animated animate__delay-1s box-border rounded-3xl bg-white px-4 py-8 drop-shadow md:p-20">
             <div className="flex items-center gap-4">
               <div className="flex items-center">

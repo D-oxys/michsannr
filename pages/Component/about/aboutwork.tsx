@@ -3,7 +3,7 @@ import React from "react";
 function aboutwork() {
   return (
     <div>
-      <section className="container py-20">
+      <section className="py-20">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:gap-0">
           <div>
             <div>
