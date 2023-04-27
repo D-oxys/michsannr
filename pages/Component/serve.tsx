@@ -22,14 +22,14 @@ function serve() {
             <div className="box-border drop-shadow flex w-full flex-col items-center justify-center rounded-3xl bg-white p-8 transition-all duration-300 ease-out hover:-translate-y-4 md:max-w-[320px]">
               <img className="h-44 w-44" src="img/3426526.jpg" />
               <div className="mt-8">
-                <h4 className="text-center text-xl font-semibold md:text-2xl">Front End Developer</h4>
+                <h4 className="text-center text-black text-xl font-semibold md:text-2xl">Front End Developer</h4>
                 <p className="mt-4 text-center text-slate-500">Create your amazing idea in websites , full interaction with responsive views.</p>
               </div>
             </div>
             <div className="box-border drop-shadow flex w-full flex-col items-center justify-center rounded-3xl bg-white p-8 transition-all duration-300 ease-out hover:-translate-y-4 md:max-w-[320px]">
               <img className="h-44 w-44" src="img/4421964.jpg" />
               <div className="mt-8">
-                <h4 className="text-center text-xl font-semibold md:text-2xl">Back End Developer</h4>
+                <h4 className="text-center text-black text-xl font-semibold md:text-2xl">Back End Developer</h4>
                 <p className="mt-4 text-center text-slate-500">Develop and manage dynamic data-driven apps using robust server-side tech</p>
               </div>
             </div>
