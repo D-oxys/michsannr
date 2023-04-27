@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
-function footer() {
+function Footer() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -70,4 +70,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;
