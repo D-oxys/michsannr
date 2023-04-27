@@ -13,10 +13,11 @@ interface Card {
 }
 
 interface CardSlideshowProps {
-  cards: Card[];
+  cards?: Card[]; // membuat prop cards menjadi opsional
 }
 
-const CardSlideshow = ({ cards }: CardSlideshowProps) => {
+const CardSlideshow = ({ cards = [] }: CardSlideshowProps) => {
+  // memberikan nilai default array kosong untuk cards
   return (
     <Swiper
       spaceBetween={20}
@@ -50,4 +51,5 @@ const CardSlideshow = ({ cards }: CardSlideshowProps) => {
     </Swiper>
   );
 };
+
 export default CardSlideshow;
