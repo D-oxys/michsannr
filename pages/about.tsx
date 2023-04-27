@@ -4,10 +4,14 @@ import Footer from "./Component/footer";
 import Heros from "./Component/about/aboutHero";
 import AboutWork from "./Component/about/aboutwork";
 import AboutSkill from "./Component/about/aboutSkill";
+import Head from "next/head";
 
 function about() {
   return (
     <>
+      <Head>
+        <title>Ichsan - aboutMe</title>
+      </Head>
       <div className="heroBack flex min-h-screen flex-col">
         <Header />
         <div className="flex flex-1 items-center justify-center">

@@ -2,10 +2,14 @@ import React from "react";
 import Header from "./Component/header";
 import Footer from "./Component/footer";
 import ProjectsPic from "./Component/projectsPic";
+import Head from "next/head";
 
 function projects() {
   return (
     <>
+      <Head>
+        <title>Ichsan - Project</title>
+      </Head>
       <div className="w-full bg-[#F7F7F7]">
         <Header />
       </div>

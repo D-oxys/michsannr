@@ -3,10 +3,13 @@ import Header from "./Component/header";
 import Footer from "./Component/footer";
 import Product from "./Component/product";
 import ProductHeros from "./Component/productHeros";
-
+import Head from "next/head";
 function productPage() {
   return (
     <>
+      <Head>
+        <title>Ichsan - Product</title>
+      </Head>
       <div className="w-full bg-[#F7F7F7]">
         <Header />
       </div>
