@@ -58,7 +58,7 @@ function Footer() {
           <hr className="bg-white" />
           <div className="flex items-center justify-between px-4 py-8 text-white md:px-8">
             <h5>
-              © 2023, Ichsan <span className="text-[#1c2863]">& pipit❤</span>
+              © 2023, Ichsan <span className="text-[#1c2863]">& pipit</span>
             </h5>
             <button onClick={scrollToTop} className={`transition duration-200 hover:text-blue-500 ${isVisible ? "block" : "hidden"}`}>
               Back to top
