@@ -6,7 +6,7 @@ function be() {
       <div className="px-6">
         <div className="flex items-center gap-4">
           <div className="h-[2px] w-12 bg-blue-600"></div>
-          <h2 className="text-2xl font-semibold text-blue-600">Back-End</h2>
+          <h2 className="text-2xl font-semibold text-blue-600">Back-End Skills</h2>
         </div>
         <div className="mt-4 grid grid-cols-3 gap-6 md:grid-cols-4">
           <div className="group flex flex-col items-center gap-2">
